@@ -1,0 +1,12 @@
+{
+  "name": "MirAliShaikh-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "MirAliShaikh DevOps CI/CD Demo Pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
