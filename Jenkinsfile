@@ -27,7 +27,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Compile the production container image
-                sh 'docker build -t MirAliShaikh-cicd-pipeline .'
+                sh 'docker build -t miralishaikh-cicd-pipeline .'
                 echo 'Application Deployed Successfully!'
             }
         }
